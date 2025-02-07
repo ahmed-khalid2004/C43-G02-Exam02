@@ -17,7 +17,7 @@ namespace Exam
             Id = 1;
             Name = "C# Programming";
         }
-        public void CreateExam(bool isFinal)
+        public void CreateExam(bool f)
         {
             Console.Write("Do you want a Final Exam or a Practical Exam? (1 for Final, 2 for Practical): ");
             int examType = int.Parse(Console.ReadLine());
